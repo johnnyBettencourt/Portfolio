@@ -6,3 +6,12 @@
 .active{
     text-decoration: underline;
 }
+
+.home-card-img{
+    filter: drop-shadow(-20px 5px 4px #ddd);
+}
+
+.site-footer {
+    background-image: linear-gradient(#eee, white);
+    padding: 20px 0;
+}
