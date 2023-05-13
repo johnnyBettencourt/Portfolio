@@ -8,11 +8,11 @@
 }
 
 .home-card img{
-    filter: drop-shadow(-20px 5px 4px #ddd);
+    filter: drop-shadow(-20px 5px 4px #d1d1d1);
 }
 
 .home-card{
-    /* background: #eee; */
+    background: #eee;
 }
 
 .site-footer {
