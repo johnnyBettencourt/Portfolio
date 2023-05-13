@@ -7,11 +7,14 @@
     text-decoration: underline;
 }
 
-.home-card-img{
+.home-card img{
     filter: drop-shadow(-20px 5px 4px #ddd);
 }
 
+.home-card{
+    /* background: #eee; */
+}
+
 .site-footer {
-    background-image: linear-gradient(#eee, white);
     padding: 20px 0;
 }
