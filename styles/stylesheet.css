@@ -18,3 +18,13 @@
 .site-footer {
     padding: 20px 0;
 }
+
+.list-unstyled-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.list-unstyled-item a:hover{
+    text-decoration: underline;
+    color: black;
+}
