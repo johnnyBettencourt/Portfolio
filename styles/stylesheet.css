@@ -52,10 +52,18 @@ p {
 
 /* project cards */
 
+
+.project-card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
 .project-card {
     align-self: center;
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 360px;
     position: relative;
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     border-radius: 16px;
@@ -103,12 +111,12 @@ p {
 
 /* Icons */
 .project-card-description img{
-    margin: 5px;
+    margin: 10px;
 }
 
 /* Hover states */
 .project-card:hover .project-card-description {
-    transform: translateY(-200px);
+    transform: translateY(-210px);
 }
 
 /* Buttons */
