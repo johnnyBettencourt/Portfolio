@@ -31,3 +31,16 @@
 p{
     font-size: 18px;
 }
+
+#languagesAndTools a {
+    text-decoration: none;
+}
+
+.resume-section{
+    background: #eee;
+    border-radius: .5%;
+}
+
+.resume-section img{
+    filter: drop-shadow(-20px 5px 4px #d1d1d1);
+}
