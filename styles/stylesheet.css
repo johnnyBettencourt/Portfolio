@@ -53,6 +53,7 @@ p {
 /* project cards */
 
 .project-card {
+    align-self: center;
     height: 500px;
     width: 400px;
     position: relative;
@@ -60,6 +61,7 @@ p {
     border-radius: 16px;
     filter: drop-shadow(-25px 20px 4px #ddd);
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 /*Image*/
@@ -80,8 +82,8 @@ p {
     flex-direction: column;
     background-color: #eee;
     color: #212121;
-    height: 50%;
-    bottom: -37%;
+    height: 280px;
+    bottom: -215px;
     border-radius: 16px;
     transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
     padding: 1rem;
@@ -98,10 +100,14 @@ p {
     line-height: 130%;
 }
 
+/* Icons */
+.project-card-description img{
+    margin: 5px;
+}
 
 /* Hover states */
 .project-card:hover .project-card-description {
-    transform: translateY(-60%);
+    transform: translateY(-200px);
 }
 
 /* Buttons */
@@ -119,6 +125,7 @@ p {
     background: linear-gradient(to right, #448dce, #0275d8);
     color: ghostwhite;
     overflow: hidden;
+    margin-bottom: 5px;
 }
 
 .cssbuttons-io svg {
