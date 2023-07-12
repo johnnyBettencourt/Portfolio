@@ -6,10 +6,10 @@ Hi there! I'm Johnny, a passionate web developer with a strong focus on JavaScri
 
 ## Sections
 
-- [Portfolio](#portfolio)
-- [Resume](#resume)
-- [About](#about)
-- [Contact](#contact)
+- [Portfolio](https://johnbettencourt.dev/portfolio.html)
+- [Resume](https://johnbettencourt.dev/resume.html)
+- [About](https://johnbettencourt.dev/about.html)
+- [Contact](https://johnbettencourt.dev/)
 
 ## Portfolio
 
