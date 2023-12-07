@@ -70,6 +70,9 @@ p {
     filter: drop-shadow(-25px 20px 4px #ddd);
     overflow: hidden;
     margin-bottom: 30px;
+    -webkit-filter: drop-shadow(-25px 20px 4px #ddd);
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 /*Image*/
